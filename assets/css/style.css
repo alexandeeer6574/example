@@ -12,6 +12,7 @@ h1 {
     border-style: solid;
     border-color: rgb(216, 216, 216);
     padding: 6px;
+    document.querySelector('button').addEventListiner('click', () => { alert('click')} )
 }
 
 .button:hover {
